@@ -150,3 +150,9 @@ left: 10.83%;
 .features {
   position: absolute;
 }
+.feature-title {
+  color: #4caf50;
+}
+.more-button {
+  color: #4caf50;
+}
