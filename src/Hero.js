@@ -9,12 +9,12 @@ class Hero extends React.Component {
             <a class="navbar-brand text-white" href="#">
               Changelly
             </a>
-            <span class="sign-in">
-              <a class="text-white" href="#">
-                Sign in
-              </a>
-              <i class="fas fa-arrow-right text-white" />
-            </span>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto" />
+              <span class="navbar-text text-white">Sign-in</span>
+              <i class="fas fa-arrow-right text-white mx-2" />
+            </div>
           </nav>
         </div>
         <div class="container hero-header">
@@ -43,7 +43,7 @@ class Hero extends React.Component {
               </div>
             </div>
             {/* RIGHT SIDE CARD */}
-            <div class="card col-md-5 border-0 buy-btc">
+            <div class="card col-md-5 border-0 buy-btc mb-5">
               <div class="card-body">
                 <form>
                   <div class="form-group">
