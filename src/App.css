@@ -27,6 +27,11 @@ nav {
   mix-blend-mode: normal;
   opacity: 0.35;
   /* margin: 10% 0 5% 0; */
+  color: white;
+  margin-bottom: 1px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 15px;
 }
 .rectangle-5 {
   /* position: absolute;
@@ -37,6 +42,11 @@ left: 10.83%;
   padding: 1%;
   background: #28bd84;
   border-radius: 100px;
+  color: white;
+  margin-bottom: 1px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 15px;
 }
 .alert-text {
   /* position: absolute; */
@@ -89,13 +99,14 @@ left: 10.83%;
 .cta {
   /* position: absolute; */
   /* top: 89.71%;
-  color: #28bd84;
+  
  position: absolute;
   left: 10.49%;
   right: 78.12%;
   top: 89.71%;
   bottom: 35.04%;  */
   margin-top: 5%;
+  color: #28bd84;
 }
 
 .slider {
@@ -130,6 +141,9 @@ left: 10.83%;
 .amount-range {
   font-size: 8px;
   color: gray;
+}
+.buy-btc {
+  margin-bottom: 10%;
 }
 
 /* FEATURES SECTION */

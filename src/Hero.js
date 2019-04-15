@@ -19,31 +19,40 @@ class Hero extends React.Component {
         </div>
         <div class="container hero-header">
           <div class="row">
-            <div class="card col-md-7 border-0 bg-transparent">
+            <div class="card col-md-5 mr-5 border-0 bg-transparent">
               <div class="card-body">
                 <div
+                  class="alert alert-success rounded-pill rectangle-4"
+                  role="alert"
+                >
+                  <span class="rectangle-5 mx-0 px-2 text-white">NEW</span>
+                  <span class="alert-text text-dark mx-2">
+                    A simple success alert—check it out!
+                  </span>
+                </div>
+                {/* <div
                   class="alert alert-light rounded-pill rectangle-4"
                   role="alert"
                 >
                   <span class="rounded-pill-sm rectangle-5">NEW </span>
-                  <span class="alert-text">
+                  <span class="alert-text text-white">
                     Catch mouse and gave it as a present chew the giant but
                     scratch
                   </span>
-                </div>
-                <h1 class="title">Buy Bitcoin with Credit Card</h1>
+                </div> */}
+                <h1 class="title mt-5">Buy Bitcoin with Credit Card</h1>
                 <p class="blurb">
                   Catch mouse and gave it as a present chew the plant but
                   scratch me there, elevator butt. Always ensure to lay down in
                   such a manner that tail can lightly brush.
                 </p>
-                <button type="button" class="btn btn-light cta">
-                  Create Account
+                <button type="button" class="btn btn-light shadow cta">
+                  CREATE ACCOUNT
                 </button>
               </div>
             </div>
             {/* RIGHT SIDE CARD */}
-            <div class="card col-md-5 border-0 buy-btc mb-5">
+            <div class="card col-md-5 border-0 mx-auto buy-btc">
               <div class="card-body">
                 <form>
                   <div class="form-group">
