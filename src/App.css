@@ -1,8 +1,138 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .rectangle-45 {
-  position: absolute;
+  /* position: absolute; */
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
   background: linear-gradient(152.11deg, #0fb786 0%, #b0df77 100%);
+}
+.hero-header {
+  /* margin: 5%; */
+  margin-top: 5%;
+}
+nav {
+  /* position: absolute; */
+}
+.rectangle-4 {
+  /* position: absolute;
+  left: 10.49%;
+  right: 56.04%;
+  top: 21.26%;
+  bottom: 75.2%; */
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  /* margin: 10% 0 5% 0; */
+}
+.rectangle-5 {
+  /* position: absolute;
+left: 10.83%;
+  right: 86.39%; 
+  top: 22.05%;
+  bottom: 75.85%;  */
+  padding: 1%;
+  background: #28bd84;
+  border-radius: 100px;
+}
+.alert-text {
+  /* position: absolute; */
+  /* position: absolute;
+  left: 14.1%;
+  right: 57.57%;
+  top: 21.78%;
+  bottom: 75.85%; */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.55px;
+  color: white;
+}
+.title {
+  color: white;
+  /* position: absolute; */
+  /* top: 38.63%;
+  left: 10.49%;
+  right: 55.28%;
+  top: 31.63%;
+  bottom: 61.55%; */
+  /* font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: 0.06px;
+  color: #ffffff;*/
+}
+.blurb {
+  /* position: absolute; */
+  /* top: 53.81%;
+   left: 10.49%;
+  right: 55.97%; 
+  left: 10.49%;
+  right: 55.97%;
+  top: 40.81%;
+  bottom: 48.16%;  */
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0.42px;
+  color: #d9fcff;
+}
+.cta {
+  /* position: absolute; */
+  /* top: 89.71%;
+  color: #28bd84;
+ position: absolute;
+  left: 10.49%;
+  right: 78.12%;
+  top: 89.71%;
+  bottom: 35.04%;  */
+  margin-top: 5%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+.amount-range {
+  font-size: 8px;
+  color: gray;
+}
+
+/* FEATURES SECTION */
+.features {
+  position: absolute;
 }
